@@ -12,10 +12,23 @@
 <%@include file="component/allcss.jsp"%>
 
 <style type="text/css">
-.poin-card{
-    box-shadow:0 0 10px 0 rgba(0,0,0.3);
-
-}</style>
+body {
+    background-image: url('image/form.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.point-card {
+    background-color:#d4e9f1;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+</style>
 
 </head>
 <body>
